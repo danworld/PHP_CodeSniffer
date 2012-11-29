@@ -56,8 +56,9 @@
  <!-- 2.4 Indenting -->
 
  <!-- Code MUST use an indent of 4 spaces, and MUST NOT use tabs for indenting. -->
- <rule ref="Generic.WhiteSpace.ScopeIndent"/>
- <rule ref="Generic.WhiteSpace.DisallowTabIndent"/>
+ <!-- Override Standard: SHOULD use tabs for indenting -->
+ <!-- <rule ref="Generic.WhiteSpace.ScopeIndent"/> -->
+ <!-- <rule ref="Generic.WhiteSpace.DisallowTabIndent"/> -->
 
  <!-- 2.5 Keywords and True/False/Null -->
 
